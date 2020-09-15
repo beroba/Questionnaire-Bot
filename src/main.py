@@ -8,19 +8,16 @@ RUN_MODE = settings.RUN_MODE
 
 # cogsフォルダのみ追加
 INITIAL_EXETENDIONS = [
-    'cogs.fetch_message' ,
 ]
 
 # cogs_devフォルダのみ追加
 DEV_COGS = [
-
+    'cogs_dev.fetch_message'
 ]
 
 # RUN_MODEがDEVならcogs_devの中身も読む
 if RUN_MODE == "DEV":
-    INITIAL_EXETENDIONS.append(DEV_COGS)
-
-
+    INITIAL_EXETENDIONS.extend(DEV_COGS)
 
 class MyBot(commands.Bot):
     def __init__(self, command_prefix) -> None:
