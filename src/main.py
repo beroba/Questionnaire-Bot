@@ -12,7 +12,8 @@ INITIAL_EXETENDIONS = [
 
 # cogs_devフォルダのみ追加
 DEV_COGS = [
-    'cogs_dev.fetch_message'
+    'cogs_dev.fetch_message',
+    'cogs_dev.task_message'
 ]
 
 # RUN_MODEがDEVならcogs_devの中身も読む
