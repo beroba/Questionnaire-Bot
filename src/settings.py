@@ -10,3 +10,4 @@ dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
 DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+COMMAND_PREFIX = os.environ.get("COMMAND_PREFIX")

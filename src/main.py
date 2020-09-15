@@ -23,4 +23,4 @@ class MyBot(commands.Bot):
 
 if __name__ == "__main__":
     bot = MyBot(command_prefix=COMMAND_PREFIX)
-    bot.run(settings.TOKEN)
+    bot.run(settings.DISCORD_TOKEN)
