@@ -17,6 +17,10 @@ Discordでアンケートを取るBot
 
     `{TextEditor} .env`
 
+4. start
+
+    `pipenv run start`
+
 |環境変数名|説明|
 |:------:|:-----:|
 |DISCORD_TOKEN|Discordのトークン|
