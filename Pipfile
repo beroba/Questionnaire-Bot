@@ -13,3 +13,6 @@ ddiscord = "*"
 
 [requires]
 python_version = "3.8"
+
+[script]
+start = "python main.py"
