@@ -6,7 +6,7 @@ DISCORD_TOKEN = settings.DISCORD_TOKEN
 COMMAND_PREFIX = settings.COMMAND_PREFIX
 
 INITIAL_EXETENDIONS = [
-
+    'cogs.fetch_message' ,
 ]
 
 
