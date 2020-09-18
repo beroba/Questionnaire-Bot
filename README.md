@@ -26,4 +26,4 @@ Discordでアンケートを取るBot
 |DISCORD_TOKEN|Discordのトークン|
 |COMMAND_PREFIX|Botの呼び出しを変える際に使用|
 |RUN_MODE|DEVと入力しておくと開発モードになります|
-
+|DB_NAME|DBのファイル名を指定します|
