@@ -14,5 +14,6 @@ ddiscord = "*"
 [requires]
 python_version = "3.8"
 
-[script]
-start = "python main.py"
+[scripts]
+start = "python src/main.py"
+db-setup = "python src/db_setup.py"
