@@ -1,10 +1,12 @@
 from discord.ext import commands
 import settings
 import traceback
+import sqlite3
 
 DISCORD_TOKEN = settings.DISCORD_TOKEN
 COMMAND_PREFIX = settings.COMMAND_PREFIX
 RUN_MODE = settings.RUN_MODE
+DB_NAME = settings.DB_NAME
 
 # cogsフォルダのみ追加
 INITIAL_EXETENDIONS = [
